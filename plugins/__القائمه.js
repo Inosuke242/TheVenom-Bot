@@ -25,24 +25,9 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-*☢︎︎☠︎︎📆تاريخ:* ${date}
-*☢︎︎☠︎︎🕛وقت نشط:* ${uptime}
-*☢︎︎☠︎︎⚡مستخدمين:* ${rtotalreg}
-*☢︎︎☠︎︎🎖️ مستوى* ${level}
-*☢︎︎☠︎︎🧰 خبرة ${exp}*
-*☢︎︎☠︎︎⚓ الدور ${role}*
-
-*✍︎☢︎︎💎الماس:* ${limit}
-*✍︎☢︎︎👾عملات:* ${money}
-*✍︎☢︎︎🪙الرموز:* ${joincount}
-*✍︎☢︎︎🎟️مميز:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-
-
-*✍︎☢︎︎ اسـم الـبوت : حط اسم بوتك*🤩😍
-*✍︎☢︎︎ حط قبل كل امر*  (.)
-*✍︎☢︎︎ اســم الـمطور  Mحط اسمك*🤩😍
-*✍︎☢︎︎ الـمنـصه  Render*
-*✍︎☢︎︎ ⁩ تفضل القائمة يا*  ${taguser}
+*Feitan Bot★*
+*Developer: Inosuke★*
+*Welcome to Mars${taguser}*
 
 _☠︎︎🔏☠︎︎━━ │الـجـروب│━━☠︎︎🔏☠︎︎_
 
